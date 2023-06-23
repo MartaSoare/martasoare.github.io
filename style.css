@@ -1,0 +1,100 @@
+html
+{
+  background-color: #E8E8E8;
+  font-family: verdana;
+}
+
+body 
+{
+  background-color: white;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.25;
+} 
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+h1 
+{
+  text-align: center;
+  flex-basis: 100%;
+}
+
+
+img
+{
+  flex-basis: 2%;
+  flex-grow: 1;
+  object-fit: scale-down;
+  object-position: top;
+  margin: 0.1rem;
+}
+
+article
+{
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+article p
+{
+  padding: 0.3rem;
+}
+
+nav ul
+{
+  display: flex;
+  justify-content: center;
+  padding-left: 0; 
+  padding-top: 0;
+  list-style: none;
+}
+
+nav li
+{
+  text-align: center;
+  font-weight: bold;
+  flex-basis: 30%;
+  flex-grow:0; 
+}
+
+
+h2,h3,h4,p,li
+{
+  text-align: left;
+  padding: 0.15rem;
+  margin: 0.15rem;
+  flex-basis: 100%;
+}
+
+ul
+{
+  list-style: square;
+}
+
+body, nav li
+{
+  border: thin solid lightgray;
+}
+
+span
+{
+  color: forestgreen;
+  font-weight: bold;
+}
+
+a:link {text-decoration: none; color: firebrick}    
+a:visited {text-decoration: none; color: indianred} 
+a:hover {text-decoration: none; color: gray}  
+.award:link {
+  color: forestgreen;
+  font-weight: bold;
+}
+
+
