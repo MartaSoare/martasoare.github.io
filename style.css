@@ -92,9 +92,4 @@ span
 a:link {text-decoration: none; color: firebrick}    
 a:visited {text-decoration: none; color: indianred} 
 a:hover {text-decoration: none; color: gray}  
-.award:link {
-  color: forestgreen;
-  font-weight: bold;
-}
-
 
