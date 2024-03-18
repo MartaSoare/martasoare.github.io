@@ -29,7 +29,7 @@ h1
 
 img
 {
-  flex-basis: 2%;
+  flex-basis: 15%;
   flex-grow: 1;
   object-fit: scale-down;
   object-position: top;
@@ -38,7 +38,7 @@ img
 
 article
 {
-  flex-basis: 50%;
+  flex-basis: 80%;
   flex-grow: 1;
 }
 
